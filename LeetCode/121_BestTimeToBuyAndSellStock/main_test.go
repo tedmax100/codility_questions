@@ -29,9 +29,7 @@ func Test_MaxProfit(t *testing.T) {
 	}
 
 	for idx := range testCases {
-		if testCases[idx].out != maxProfit(testCases[idx].in) {
-			assert.Equal(t, testCases[idx].out, maxProfit(testCases[idx].in))
-		}
+		assert.Equal(t, testCases[idx].out, maxProfit(testCases[idx].in))
 	}
 }
 
