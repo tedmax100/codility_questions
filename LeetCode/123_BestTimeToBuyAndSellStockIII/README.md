@@ -55,4 +55,7 @@ profit[i][k]表示前i天最多k次的最高收益
 第3天買入, 第i天做賣出, 利潤是 prices[i] - prices[2] + profit[1][k-1] , 依此類推...  
 第j天買入, 第i天做賣出, 利潤是 prices[i] - prices[j] + profit[j-1][k-1]  
 在這些可能裡面選擇一個最大的, 跟第i天什麼都不做事做比較, 就是profit[i][k]的值了  
+
+https://zhuanlan.zhihu.com/p/77666061
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/discuss/149383/Easy-DP-solution-using-state-machine-O(n)-time-complexity-O(1)-space-complexity
 </details>
